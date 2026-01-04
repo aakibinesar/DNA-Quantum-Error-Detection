@@ -44,7 +44,7 @@ This generates:
 ## Quick Start Example
 ```python
 import numpy as np
-from Complementarity_Channel import multi_property_detection
+from DNA_Quantum_Error_Detection_Channel import multi_property_detection
 
 # Test complete Pauli detection at p=0.15
 labeling_id = 4
