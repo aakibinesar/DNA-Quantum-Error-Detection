@@ -1,0 +1,5 @@
+echo "numpy>=1.21.0" > requirements.txt
+echo "matplotlib>=3.4.0" >> requirements.txt
+git add requirements.txt
+git commit -m "Add requirements.txt"
+git push
