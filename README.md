@@ -33,13 +33,29 @@ pip install -r requirements.txt
 
 Run all experiments:
 ```bash
-python Complementarity_Channel.py
+python DNA_Quantum_Error_Detection_Channel.py
 ```
 
 This generates:
 - `fig1_capacity.pdf` - Capacity comparison and gain
 - `fig2_complete_detection.pdf` - Complete Pauli characterization (X, Y, Z detection)
 - `fig3_detection_rate.pdf` - Single-property detection validation
+
+## Quick Start Example
+```python
+import numpy as np
+from Complementarity_Channel import multi_property_detection
+
+# Test complete Pauli detection at p=0.15
+labeling_id = 4
+p_x = p_y = p_z = 0.05  # symmetric noise (total p=0.15)
+
+results = multi_property_detection(labeling_id, p_x, p_y, p_z, n_trials=10000)
+
+print(f"X-error detection: {results['x_detection_rate']:.1%}")  # → 100%
+print(f"Y-error detection: {results['y_detection_rate']:.1%}")  # → 100%
+print(f"Z-error detection: {results['z_detection_rate']:.1%}")  # → 100%
+```
 
 ## Experiments
 
