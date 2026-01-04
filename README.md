@@ -108,7 +108,7 @@ Email: aakib.nesar@northsouth.edu
 
 ## Acknowledgments
 
-This work was conducted at North South University as part of a master's thesis on DNA-based quantum information processing.
+This work was conducted at North South University, initially, as part of a master's course project work on DNA-based quantum information processing.
 ```
 
 ---
