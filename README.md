@@ -1,4 +1,4 @@
-# DNA-Based Quantum Error Detection via Biochemical Structure
+# Structured Labelings and Capacity of Quantum Superdense Coding Channels with Biochemical Side Information
 
 Complete Pauli error detection in DNA-labeled quantum channels using biochemical structure (100% detection, zero quantum overhead) - ISIT 2026
 
